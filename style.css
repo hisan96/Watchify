@@ -1,0 +1,206 @@
+.navbar{
+    background-color: #000000 !important;
+    
+}
+
+.nav-link{
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+ul>li{
+    padding-left: 30px;;
+}
+
+.fa-user-circle-o,.fa-shopping-cart{
+    font-size: 30px;
+}
+
+.fa-retweet,.fa-headphones,.fa-truck{
+    font-size: 50px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+h3{
+    color: white;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color:#000000;
+    box-shadow: 2px 6px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newArrivals,.MenWatches,.WomenWatches {
+    margin-top: 50px;
+}
+
+.card{
+    width: 250px !important;
+    height: auto !important;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.title {
+    text-decoration:none;
+    color: #000000;
+}
+
+.title :hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    margin: 50px;
+}
+
+.heading >h1{
+    font-size: 70px;
+    text-shadow: 4px 6px 4px grey;
+}
+
+.footer{
+    width: 100%;
+    background-color: #000000;
+    height: 70px;
+    color:#ffffff;
+    text-align: center;
+    align-items: center;
+}
+
+.rowspace{
+    margin-top: 30px;;
+}
+
+/* form css */
+
+.contact-form{
+    background-color: #F1F1F1;
+}
+
+.wrapper{
+    
+    width: 100%;
+    max-width: 680px;
+    margin: 100px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content{
+    text-align: center;
+}
+.content h1{
+    letter-spacing: 1px;
+}
+
+.form{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.top-form,.middle-form,.bottom-form{
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0   ;
+    overflow: hidden;
+}
+
+.inner-form input[type="text"],
+.inner-form textarea{
+    padding: 15px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    /* border: 2px solid #fff; */
+    /* outline: none; */
+    transition: all 0.2s ease;
+}
+
+.inner-form .label{
+    margin-bottom: 5px;
+}
+
+.top-form .inner-form{
+    width: 29.9%;
+    float: left;
+    margin-right: 5%;
+}
+
+.top-form .inner-form:last-child{
+    margin-right: 0;
+}
+
+.middle-form{
+    clear: both;
+}
+
+.bottom-form textarea{
+    height: 120px;
+}
+
+.btn{
+    background-color: #000000;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper{
+       margin: 25px auto 0;
+    }
+    .top-form .inner-form{
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+  }
+
+/* form css */
+
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+    
+  }
+
+@media screen and (max-width: 770px) {
+    .card{
+        align-items: center !important;
+    }
+    
+  }
